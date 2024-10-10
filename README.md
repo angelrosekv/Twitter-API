@@ -43,8 +43,25 @@ To run program Add  Twitter API credentials (API Key, API Secret Key, Access Tok
 
 python demo.py
 
+![image](https://github.com/user-attachments/assets/a43560c2-15b5-4766-b31a-5db32f0b0a31)
+
+In the twitter account you can see the post as shown in the below
+
+![image](https://github.com/user-attachments/assets/07907177-112b-4c2b-a464-eb4916a2bdf5)
+
+
 ### Deleting an existing Account 
 To delete an existing tweet, the program uses the POST statuses/destroy/:id endpoint. For deleting required to give the tweet ID .
+Run the below to delete existing Account 
+
+Python delete.py
+
+![image](https://github.com/user-attachments/assets/edf88f14-5ec9-4ee8-86f6-2a72e031fc89)
+
+In the twitter account you can see the post is deleted as shown in the below
+
+![image](https://github.com/user-attachments/assets/02b0b174-cedf-4c17-947b-7ce8a8cabeb7)
+
 ### API Response 
 Posting a Tweet: A JSON response with details of the newly created tweet  
 Deleting a Tweet: A JSON response confirming the deletion of the tweet.
@@ -55,3 +72,9 @@ The program includes error handling to manage various issues that may arise when
 - Invalid credentials: The program checks if your API keys and tokens are correct.
 - Rate limiting: Twitter has rate limits for API requests. If you exceed these limits, the program will catch the error and handle it gracefully.
 - Invalid tweet ID: When deleting a tweet, the program ensures that a valid tweet ID is provided. If an invalid ID is used, the program catches the error and prints an appropriate message.
+
+Below shows the Error handling sceenshot 
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/228af9e9-a8a9-4cf0-9e6b-502c6ad9d252">
+
+
