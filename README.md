@@ -1,9 +1,9 @@
 # Twitter API Interaction Assignment
 
 ## Introduction
-This assignment demonstrates how to interact with the Twitter API by creating and deleting tweets using a Python program. The goal of this project is to help students understand how to work with external APIs, use OAuth authentication, and manage API responses. Students will perform tasks such as posting a tweet and deleting a tweet programmatically while handling errors and rate limiting.
+This assignment detailed how to interact with the Twitter API by creating and deleting tweets using a Python program.The project helps  understand how to work with external APIs, use OAuth authentication, and manage API responses. from this assignment how to perform tasks such as posting a tweet and deleting a tweet programmatically while handling errors and rate limiting.
 
-By completing this assignment, students will:
+By completing this assignment,
 - Learn how to authenticate with the Twitter API using OAuth.
 - Gain experience making POST requests to create a new tweet.
 - Understand how to make DELETE requests to remove an existing tweet.
@@ -12,9 +12,10 @@ By completing this assignment, students will:
 ## Setup Instructions
 
 ### 1. Set Up a Twitter Developer Account
-Before you can interact with the Twitter API, you need to create a developer account and generate API keys:
+Before interact with the Twitter API, need to create a developer account and generate API keys:
 - Create a [Twitter Developer Account](https://developer.twitter.com/).
-- Once your account is approved, create a new project and an app under your Twitter Developer Dashboard.
+- Once  account is approved, create a new project and an app under your Twitter Developer Dashboard.
+- I use the defaut project.
   
 ### 2. Generate API Keys
 Follow these steps to generate the necessary API keys:
@@ -26,7 +27,7 @@ Follow these steps to generate the necessary API keys:
    - **Access Token**
    - **Access Token Secret**
 
-Make sure to store these credentials securely as you will need them in your program.
+Make sure to store these credentials securely this  will need  in the program.
 
 ### 3. Configure OAuth
 - Set the **Callback URL** to `http://localhost:3000` (or any local testing environment).
